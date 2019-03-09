@@ -1,8 +1,16 @@
-target/
+# Eclipse
+.classpath
+.project
+.settings/
+ 
+# Intellij
+.idea/
+*.iml
 *.iws
-.idea/libraries
-.idea/tasks.xml
-.idea/vcs.xml
-.idea/misc.xml
-.idea/workspace.xml
+ 
+# Mac
 .DS_Store
+ 
+# Maven
+log/
+target/
