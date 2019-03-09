@@ -1,4 +1,4 @@
-# Internet of Things - IoT
+# EmailFrameworkBDD
 
 ## Table of contents
 * [General info](#general-info)
@@ -6,31 +6,25 @@
 * [Setup](#setup)
 
 ## General info
-This is a HTML & CSS project about 'Internet of Things'. 
-* The project contains 5 pages.
-* It is based on Responsive Design.
-* All pages have liquid layout.
-* Each page has a good example usage of the following web elements;
-  * Horizontal and vertical navigation bars within wireframes
-  * Links (external, internal, in-page, email, download)
-  * Data tables
-  * Ordered and Unordered lists
-  * Form (label, input, textarea, radio buttons)
-  * Images
-  * and more
+This is an automated email framework which uses a valid gmail account. It sends personalized emails to a list of the 
+people and with given personalized keywords.
 
 ## Technologies
 Project is created with:
-* HTML5 & CSS
+* Maven
+* Java
+* Selenium WebDriver
+* Cucumber 
+* JUnit
 	
 ## Setup/Availability
-To see this project, click on
-
-https://acikgozmehmet.github.io/HTML-CSS_Project_IoT/index.html
-
-
 install it locally using git:
 
 ```
-$ git clone https://github.com/acikgozmehmet/HTML-CSS_Project_IoT.git
+$ git clone https://github.com/acikgozmehmet/EmailFrameworkBDD.git
+$ mvn test 
 ```
+
+Before you run it:
+* Enter the valid credentials for the gmail account in the 'configuration.properties' file
+* Update the email.feature file for the recepients and message.
