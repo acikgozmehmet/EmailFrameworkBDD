@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
         dryRun = false, // to check the mapping is proper between the feature file and step deifnition file
         strict = false, // for checking if any step is not defined in the step definition file
         monochrome = true,  // to display console output in a good and more readable format
-        tags = { "@wip" }
+        tags = { "@newyear" }
 )
 public class CukesRunner {
 
